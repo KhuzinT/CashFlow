@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CashFlow</string>
+    <string name="onboarding_start">START</string>
+    <string name="accounts">accounts</string>
+    <string name="operations">operations</string>
+    <string name="settings">settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="new_account">New account</string>
+    <string name="Accounts">Accounts</string>
+    <string name="total">Total:</string>
+    <string name="account_details">Account details</string>
+    <string name="account_name">Account name</string>
+    <string name="zero">0</string>
+    <string name="rub">RUB</string>
+    <string name="include_in_total">Include in total</string>
+    <string name="save">save</string>
+    <string name="operation">Operation</string>
+    <string name="expenses">Expenses</string>
+    <string name="unknown">\?????</string>
+    <string name="hide">*****</string>
+    <string name="author">Made by Khuzin Timur</string>
+    <string name="zero_rub">0 RUB</string>
+    <string name="income">Income</string>
+    <string name="locale">Locale</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="choose_lang">Choose the language</string>
+    <string name="dollar">USA dollar</string>
+    <string name="euro">Euro</string>
+    <string name="notifications">Notifications</string>
+    <string name="desc">Description</string>
+    <string name="expense">Expense</string>
+    <string name="incom">Income</string>
+    <string name="x">*</string>
+    <string name="warning">Please, fill out all fields</string>
+    <string name="notification">Don`t forget to record today`s operations</string>
+</resources>

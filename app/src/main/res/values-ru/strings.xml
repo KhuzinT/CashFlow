@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CashFlow</string>
+    <string name="onboarding_start">НАЧАТЬ</string>
+    <string name="accounts">accounts</string>
+    <string name="operations">operations</string>
+    <string name="settings">settings</string>
+    <string name="dark_mode">Темная тема</string>
+    <string name="new_account">New account</string>
+    <string name="Accounts">Счета</string>
+    <string name="total">Общий баланс:</string>
+    <string name="account_details">Детали счета</string>
+    <string name="account_name">Название счета</string>
+    <string name="zero">0</string>
+    <string name="rub">РУБ</string>
+    <string name="include_in_total">Учитывать в общем балансе</string>
+    <string name="save">сохранить</string>
+    <string name="operation">Operation</string>
+    <string name="expenses">Расходы</string>
+    <string name="unknown">\?????</string>
+    <string name="hide">*****</string>
+    <string name="author">Made by Хузин Тимур</string>
+    <string name="zero_rub">0 РУБ</string>
+    <string name="income">Доходы</string>
+    <string name="locale">Язык</string>
+    <string name="english">Английский</string>
+    <string name="russian">Русский</string>
+    <string name="choose_lang">Выберите язык</string>
+    <string name="dollar">Доллар США</string>
+    <string name="euro">Евро</string>
+    <string name="notifications">Уведомления</string>
+    <string name="desc">Описание</string>
+    <string name="expense">Расход</string>
+    <string name="incom">Доход</string>
+    <string name="x">*</string>
+    <string name="warning">Пожалуйста, заполните все поля</string>
+    <string name="notification">Не забудьте записать сегодняшние операции</string>
+</resources>

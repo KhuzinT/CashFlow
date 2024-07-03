@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F44336</color>
+    <color name="green">#8AC149</color>
+
+    <color name="reply_blue_600">#4A6572</color>
+    <color name="reply_blue_700">#344955</color>
+    <color name="reply_blue_800">#232F34</color>
+
+    <color name="reply_orange_500">#F9AA33</color>
+    <color name="reply_orange_800">#EF6C00</color>
+
+    <color name="primary">@color/reply_blue_700</color>
+    <color name="primary_variant">@color/reply_blue_800</color>
+    <color name="on_primary">@color/white</color>
+
+    <color name="secondary">@color/reply_orange_500</color>
+    <color name="on_secondary">@color/black</color>
+
+    <color name="error">@color/red</color>
+    <color name="on_error">@color/white</color>
+
+    <color name="background">#FDFDFD</color>
+    <color name="on_background">#070707</color>
+
+    <color name="surface">#D5E2EC</color>
+    <color name="surface_variant">#AFBBC3</color>
+    <color name="on_surface">#2B2B30</color>
+
+    <color name="status_bar">#FDFDFD</color>
+    <color name="nav_bar">#FDFDFD</color>
+</resources>

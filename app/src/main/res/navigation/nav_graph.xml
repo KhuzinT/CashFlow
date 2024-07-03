@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/onboarding_fragment">
+
+    <fragment
+        android:id="@+id/onboarding_fragment"
+        android:name="ru.khuzintka.cashflow.ui.onboarding.OnboardingFragment"
+        android:label="onboarding"
+        tools:layout="@layout/onboarding_fragment">
+        <action
+            android:id="@+id/action_onboarding_to_home"
+            app:destination="@+id/home_fragment"
+            app:popUpTo="@id/onboarding_fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="ru.khuzintka.cashflow.ui.home.HomeFragment"
+        android:label="home"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_home_to_edit_account"
+            app:destination="@+id/edit_account_fragment" />
+        <action
+            android:id="@+id/action_home_to_edit_operation"
+            app:destination="@+id/edit_operation_fragment" />
+        <action
+            android:id="@+id/action_home_to_woof"
+            app:destination="@+id/woof_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/edit_account_fragment"
+        android:name="ru.khuzintka.cashflow.ui.edit.account.EditAccountFragment"
+        android:label="edit_account"
+        tools:layout="@layout/edit_account_fragment">
+        <action
+            android:id="@+id/action_edit_account_to_home"
+            app:destination="@+id/home_fragment"
+            app:popUpTo="@id/edit_account_fragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="accountId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/edit_operation_fragment"
+        android:name="ru.khuzintka.cashflow.ui.edit.operation.EditOperationFragment"
+        android:label="edit_operation"
+        tools:layout="@layout/edit_operation_fragment">
+        <action
+            android:id="@+id/action_edit_operation_to_home"
+            app:destination="@+id/home_fragment"
+            app:popUpTo="@id/edit_operation_fragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="accountId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/woof_fragment"
+        android:name="ru.khuzintka.cashflow.ui.woof.WoofFragment"
+        android:label="woof"
+        tools:layout="@layout/woof_fragment" />
+</navigation>
